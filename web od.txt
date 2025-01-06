@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An e-commerce platform like Othoba.com">
+    <title>Othoba Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <p>Welcome to Othoba Clone | <a href="#">Login</a> | <a href="#">Register</a></p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <a href="#" class="logo">Othoba Clone</a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search products...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Shop the Best Products at the Best Prices</h1>
+            <p>Find everything you need in one place.</p>
+            <a href="#shop" class="btn">Start Shopping</a>
+        </div>
+    </section>
+
+    <!-- Super Shop Management System Section -->
+    <section class="super-shop">
+        <div class="container">
+            <h2>Super Shop Management System</h2>
+            <p>Manage your inventory, track orders, and streamline your shop operations with our integrated system.</p>
+            <div class="shop-features">
+                <div class="feature-item">
+                    <i class="fas fa-box"></i>
+                    <h3>Inventory Management</h3>
+                    <p>Track stock levels and manage products efficiently.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-truck"></i>
+                    <h3>Order Tracking</h3>
+                    <p>Monitor orders from placement to delivery.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Sales Reporting</h3>
+                    <p>Analyze sales data to improve business performance.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user-cog"></i>
+                    <h3>User Management</h3>
+                    <p>Manage staff and customer profiles seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Account Section -->
+    <section class="customer-account">
+        <div class="container">
+            <h2>Customer Account System</h2>
+            <p>Each customer will have a unique ID. Returning customers get a 5% discount on their purchases.</p>
+            <div class="account-features">
+                <div class="feature-item">
+                    <i class="fas fa-id-badge"></i>
+                    <h3>Unique ID</h3>
+                    <p>Every customer is assigned a unique ID for tracking purchases and discounts.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-percentage"></i>
+                    <h3>Loyalty Discounts</h3>
+                    <p>Get 5% off on every purchase as a returning customer.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Secure Accounts</h3>
+                    <p>Access your account details and track orders safely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Vendor System Section -->
+    <section class="multi-vendor">
+        <div class="container">
+            <h2>Multi-Vendor System</h2>
+            <p>Enable small businesses to join and sell their products on our platform.</p>
+            <div class="vendor-features">
+                <div class="feature-item">
+                    <i class="fas fa-store"></i>
+                    <h3>Vendor Registration</h3>
+                    <p>Small businesses can easily sign up and start selling.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Vendor Dashboard</h3>
+                    <p>Vendors can manage their products, orders, and sales data.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Sales Analytics</h3>
+                    <p>Track performance and optimize product offerings.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Partner Support</h3>
+                    <p>Dedicated support for our vendor partners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Chat Section -->
+    <section class="live-chat">
+        <div class="container">
+            <h2>Live Chat Support</h2>
+            <p>Stay connected with your customers and resolve queries in real-time.</p>
+            <div class="chat-features">
+                <div class="feature-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>Instant Communication</h3>
+                    <p>Chat live with customers to answer their questions and provide support.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user-clock"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Provide round-the-clock assistance to ensure customer satisfaction.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-history"></i>
+                    <h3>Chat History</h3>
+                    <p>Access previous conversations to understand customer needs better.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Review Section -->
+    <section class="customer-reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <p>Hear from our customers about their experiences.</p>
+            <div class="reviews-grid">
+                <div class="review-item">
+                    <i class="fas fa-user-circle"></i>
+                    <h3>John Doe</h3>
+                    <p>"Great platform with excellent products and fast delivery! Highly recommend."</p>
+                </div>
+                <div class="review-item">
+                    <i class="fas fa-user-circle"></i>
+                    <h3>Jane Smith</h3>
+                    <p>"Amazing customer service and user-friendly interface. Love shopping here!"</p>
+                </div>
+                <div class="review-item">
+                    <i class="fas fa-user-circle"></i>
+                    <h3>Emily Johnson</h3>
+                    <p>"Good quality products and the discounts are a bonus. Will shop again."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <div class="container">
+            <h2>About Our Company</h2>
+            <p>Othoba Clone is a leading e-commerce platform designed to bring businesses and customers together. We offer an extensive range of products, seamless shopping experience, and dedicated support for vendors and customers alike. Our mission is to empower small businesses and provide unparalleled value to our customers.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-flag"></i>
+                    <h3>Our Vision</h3>
+                    <p>To revolutionize the e-commerce industry by fostering trust and innovation.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Our Mission</h3>
+                    <p>To provide quality products, exceptional service, and opportunities for businesses to thrive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>Shop by Categories</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/150" alt="Category 1">
+                    <h3>Electronics</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/150" alt="Category 2">
+                    <h3>Clothing</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/150" alt="Category 3">
+                    <h3>Home Appliances</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/150" alt="Category 4">
+                    <h3>Books</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/150" alt="Product 1">
+                    <h3>Product Name</h3>
+                    <p>$10.00</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/150" alt="Product 2">
+                    <h3>Product Name</h3>
+                    <p>$15.00</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/150" alt="Product 3">
+                    <h3>Product Name</h3>
+                    <p>$20.00</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/150" alt="Product 4">
+                    <h3>Product Name</h3>
+                    <p>$25.00</p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Othoba Clone. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
